@@ -1,0 +1,4 @@
+Programming languages such as Perl, Ruby, C, and Java support template processing either natively, or through add-on libraries and modules. 
+JavaServer Pages (JSP), PHP, and Active Server Pages (ASP with VBScript, JScript or other languages) are examples, themselves, of web template 
+engines. These technologies are typically used in server-side templating systems, but could be adapted for use on a "edge-side" proxy or for 
+static page generation.
