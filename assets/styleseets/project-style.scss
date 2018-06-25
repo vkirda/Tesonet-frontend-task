@@ -1,0 +1,72 @@
+$header-color: #648cff;
+
+%ubuntu-bold {
+	font-family: 'Ubuntu';
+	font-weight: bold;
+	font-style: normal;
+}
+
+%ubuntu-normal {
+	font-family: 'Ubuntu';
+	font-weight: normal;
+	font-style: normal;
+}
+
+%ubuntu-light {
+	font-family: 'Ubuntu';
+    font-weight: 300;
+    font-style: normal;
+}
+
+%flex-wrap {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+	}
+
+header {
+	background-color: $header-color;
+	
+	.flex-container {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: row;
+		align-items: center;
+
+		p {
+			@extend %ubuntu-bold;
+			color: white;
+	  		text-transform: uppercase;
+	  		line-height: 1.2;
+	  		font-size: 24px;
+		}
+
+		a {
+			text-decoration: none;
+			color: white;
+			@extend %ubuntu-normal;
+			line-height: 1.2;
+			
+		}
+	}
+
+	.header-navigation-meniu {
+		font-size: 18px;
+	}
+
+	.social-media-links__list {
+		font-size: 26px;
+		justify-content: space-between;
+	}
+	nav {
+		flex-basis: 544px;
+	}
+	.social-media-links {
+		flex-basis: 142px;
+	}
+
+}

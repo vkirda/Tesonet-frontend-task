@@ -1,0 +1,52 @@
+header .flex-container p {
+  font-family: 'Ubuntu';
+  font-weight: bold;
+  font-style: normal; }
+
+header .flex-container a {
+  font-family: 'Ubuntu';
+  font-weight: normal;
+  font-style: normal; }
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto; }
+
+header {
+  background-color: #648cff; }
+  header .flex-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    header .flex-container p {
+      color: white;
+      text-transform: uppercase;
+      line-height: 1.2;
+      font-size: 24px; }
+    header .flex-container a {
+      text-decoration: none;
+      color: white;
+      line-height: 1.2; }
+  header .header-navigation-meniu {
+    font-size: 18px; }
+  header .social-media-links__list {
+    font-size: 26px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+  header nav {
+    -ms-flex-preferred-size: 544px;
+    flex-basis: 544px; }
+  header .social-media-links {
+    -ms-flex-preferred-size: 142px;
+    flex-basis: 142px; }
