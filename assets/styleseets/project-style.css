@@ -52,3 +52,62 @@ header {
   header .social-media-links {
     -ms-flex-preferred-size: 7.396vw;
     flex-basis: 7.396vw; }
+
+.first-screen {
+  background-color: #648cff;
+  border: solid black 1px;
+  background-image: url(../images/wave11.png), url(../images/wave22.png), -webkit-gradient(linear, left top, right top, from(#648cff), to(#648cff));
+  background-image: url(../images/wave11.png), url(../images/wave22.png), -webkit-linear-gradient(left, #648cff, #648cff);
+  background-image: url(../images/wave11.png), url(../images/wave22.png), -o-linear-gradient(left, #648cff, #648cff);
+  background-image: url(../images/wave11.png), url(../images/wave22.png), linear-gradient(to right, #648cff, #648cff);
+  background-repeat: no-repeat, no-repeat;
+  background-position: center bottom, center bottom;
+  /*
+	.vawe1 {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		z-index: 2;
+		//background: url(../images/wave11.png) no-repeat center bottom;
+		background-image: url(../images/wave11.png);
+		
+		background-repeat: no-repeat;
+		background-position: center bottom;
+		background-size: contain;
+		border: solid black 1px;
+		
+	}*/
+  /*
+	.vawe2 {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		z-index: 1;
+		//background: url(../images/wave11.png) no-repeat center bottom;
+		background-image: url(../images/wave22.png);
+		opacity: 1;
+		background-repeat: no-repeat;
+		background-position: center bottom;
+		background-size: contain;
+		border: solid black 1px;
+		
+	}*/ }
+
+.wave {
+  background-image: url("wave.png");
+  opacity: 0.541;
+  position: absolute;
+  left: 0px;
+  top: 576px;
+  width: 1920px;
+  height: 418px;
+  z-index: 381; }
+
+.wave {
+  background-image: url("wave.png");
+  position: absolute;
+  left: 0px;
+  top: 548px;
+  width: 1920px;
+  height: 423px;
+  z-index: 380; }

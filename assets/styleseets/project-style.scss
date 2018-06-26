@@ -76,3 +76,69 @@ header {
 	}
 
 }
+
+//first screen
+
+.first-screen {
+	background-color: $header-color;
+	border: solid black 1px;
+	background-image: url(../images/wave11.png) , url(../images/wave22.png), linear-gradient(to right, rgba(100, 140, 255, 1), rgba(100, 140, 255, 1));
+	background-repeat: no-repeat, no-repeat;
+	background-position: center bottom, center bottom;
+	
+	/*
+	.vawe1 {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		z-index: 2;
+		//background: url(../images/wave11.png) no-repeat center bottom;
+		background-image: url(../images/wave11.png);
+		
+		background-repeat: no-repeat;
+		background-position: center bottom;
+		background-size: contain;
+		border: solid black 1px;
+		
+	}*/
+	/*
+	.vawe2 {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		z-index: 1;
+		//background: url(../images/wave11.png) no-repeat center bottom;
+		background-image: url(../images/wave22.png);
+		opacity: 1;
+		background-repeat: no-repeat;
+		background-position: center bottom;
+		background-size: contain;
+		border: solid black 1px;
+		
+	}*/
+	
+}
+
+
+.wave {
+  background-image: url("wave.png");
+  opacity: 0.541;
+  position: absolute;
+  left: 0px;
+  top: 576px;
+  width: 1920px;
+  height: 418px;
+  z-index: 381;
+}
+.wave {
+  background-image: url("wave.png");
+  position: absolute;
+  left: 0px;
+  top: 548px;
+  width: 1920px;
+  height: 423px;
+  z-index: 380;
+}
+
+
+
