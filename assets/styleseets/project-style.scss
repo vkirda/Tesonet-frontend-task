@@ -81,10 +81,12 @@ header {
 
 .first-screen {
 	background-color: $header-color;
-	border: solid black 1px;
+	//border: solid black 1px;
 	background-image: url(../images/wave11.png) , url(../images/wave22.png), linear-gradient(to right, rgba(100, 140, 255, 1), rgba(100, 140, 255, 1));
-	background-repeat: no-repeat, no-repeat;
+	background-repeat: no-repeat, no-repeat, no-repeat;
 	background-position: center bottom, center bottom;
+	background-size: contain, contain;
+	
 	
 	/*
 	.vawe1 {

@@ -55,13 +55,13 @@ header {
 
 .first-screen {
   background-color: #648cff;
-  border: solid black 1px;
   background-image: url(../images/wave11.png), url(../images/wave22.png), -webkit-gradient(linear, left top, right top, from(#648cff), to(#648cff));
   background-image: url(../images/wave11.png), url(../images/wave22.png), -webkit-linear-gradient(left, #648cff, #648cff);
   background-image: url(../images/wave11.png), url(../images/wave22.png), -o-linear-gradient(left, #648cff, #648cff);
   background-image: url(../images/wave11.png), url(../images/wave22.png), linear-gradient(to right, #648cff, #648cff);
-  background-repeat: no-repeat, no-repeat;
+  background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: center bottom, center bottom;
+  background-size: contain, contain;
   /*
 	.vawe1 {
 		width: 100%;
