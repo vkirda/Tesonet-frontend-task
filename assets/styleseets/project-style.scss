@@ -30,6 +30,7 @@ $header-color: #648cff;
 
 header {
 	background-color: $header-color;
+	padding-top: 30px;
 	
 	.flex-container {
 		display: flex;
@@ -64,6 +65,7 @@ header {
 	}
 	nav {
 		flex-basis: 544px;
+		opacity: 0.8;
 	}
 	.social-media-links {
 		flex-basis: 142px;

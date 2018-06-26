@@ -13,7 +13,8 @@ header .flex-container a {
   margin: 0 auto; }
 
 header {
-  background-color: #648cff; }
+  background-color: #648cff;
+  padding-top: 30px; }
   header .flex-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -46,7 +47,8 @@ header {
     justify-content: space-between; }
   header nav {
     -ms-flex-preferred-size: 544px;
-    flex-basis: 544px; }
+    flex-basis: 544px;
+    opacity: 0.8; }
   header .social-media-links {
     -ms-flex-preferred-size: 142px;
     flex-basis: 142px; }
