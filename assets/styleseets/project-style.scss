@@ -1,3 +1,5 @@
+//variables
+
 $header-color: #648cff;
 
 %ubuntu-bold {
@@ -23,14 +25,16 @@ $header-color: #648cff;
 	flex-wrap: wrap;
 }
 
+//header section
+
 .container {
-	max-width: 1170px;
+	max-width: 60.9375vw;
 	margin: 0 auto;
 	}
 
 header {
 	background-color: $header-color;
-	padding-top: 30px;
+	padding-top: 2.78vh;
 	
 	.flex-container {
 		display: flex;
@@ -43,7 +47,7 @@ header {
 			color: white;
 	  		text-transform: uppercase;
 	  		line-height: 1.2;
-	  		font-size: 24px;
+	  		font-size: 1.5em;
 		}
 
 		a {
@@ -56,19 +60,19 @@ header {
 	}
 
 	.header-navigation-meniu {
-		font-size: 18px;
+		font-size: 1.125em;
 	}
 
 	.social-media-links__list {
-		font-size: 26px;
+		font-size: 1.625em;
 		justify-content: space-between;
 	}
 	nav {
-		flex-basis: 544px;
+		flex-basis: 28.34vw;
 		opacity: 0.8;
 	}
 	.social-media-links {
-		flex-basis: 142px;
+		flex-basis: 7.396vw;
 	}
 
 }

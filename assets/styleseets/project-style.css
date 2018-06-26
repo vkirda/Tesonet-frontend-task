@@ -9,12 +9,12 @@ header .flex-container a {
   font-style: normal; }
 
 .container {
-  max-width: 1170px;
+  max-width: 60.9375vw;
   margin: 0 auto; }
 
 header {
   background-color: #648cff;
-  padding-top: 30px; }
+  padding-top: 2.78vh; }
   header .flex-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -33,22 +33,22 @@ header {
       color: white;
       text-transform: uppercase;
       line-height: 1.2;
-      font-size: 24px; }
+      font-size: 1.5em; }
     header .flex-container a {
       text-decoration: none;
       color: white;
       line-height: 1.2; }
   header .header-navigation-meniu {
-    font-size: 18px; }
+    font-size: 1.125em; }
   header .social-media-links__list {
-    font-size: 26px;
+    font-size: 1.625em;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between; }
   header nav {
-    -ms-flex-preferred-size: 544px;
-    flex-basis: 544px;
+    -ms-flex-preferred-size: 28.34vw;
+    flex-basis: 28.34vw;
     opacity: 0.8; }
   header .social-media-links {
-    -ms-flex-preferred-size: 142px;
-    flex-basis: 142px; }
+    -ms-flex-preferred-size: 7.396vw;
+    flex-basis: 7.396vw; }
