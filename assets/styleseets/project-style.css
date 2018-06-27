@@ -1,10 +1,16 @@
 .first-screen .description-and-phone .description h1 {
   font-size: 3.75em; }
 
-.first-screen .description-and-phone .description p, .first-screen .description-and-phone .description button {
+.first-screen .description-and-phone .phone div #phone__circle_9 {
+  font-size: 1.264em; }
+
+.first-screen .description-and-phone .description p, .first-screen .description-and-phone .description button, .first-screen .description-and-phone .phone div #phone__circle_sunny, .first-screen .description-and-phone .phone div #phone__circle_rio {
   font-size: 1.125em; }
 
-header .flex-container p, .first-screen .description-and-phone .description h1, .first-screen .description-and-phone .description button {
+.first-screen .description-and-phone .phone div #phone__circle_london {
+  font-size: 1em; }
+
+header .flex-container p, .first-screen .description-and-phone .description h1, .first-screen .description-and-phone .description button, .first-screen .description-and-phone .phone div #phone__circle_9, .first-screen .description-and-phone .phone div #phone__circle_london, .first-screen .description-and-phone .phone div #phone__circle_sunny, .first-screen .description-and-phone .phone div #phone__circle_rio {
   font-family: 'Ubuntu';
   font-weight: bold;
   font-style: normal; }
@@ -107,8 +113,10 @@ header {
       .first-screen .description-and-phone .description button:last-child {
         background-color: #4466c9; }
     .first-screen .description-and-phone .phone {
-      -ms-flex-preferred-size: 51.283%;
-      flex-basis: 51.283%; }
+      -ms-flex-preferred-size: 47.18%;
+      flex-basis: 47.18%;
+      position: relative;
+      padding-bottom: 26px; }
       .first-screen .description-and-phone .phone div {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -122,3 +130,74 @@ header {
         align-items: center; }
         .first-screen .description-and-phone .phone div img {
           max-width: 48.334%; }
+        .first-screen .description-and-phone .phone div #phone__circle_9 {
+          background-color: white;
+          position: absolute;
+          width: 58px;
+          height: 58px;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          border-radius: 50%;
+          z-index: 1;
+          right: 10.51%;
+          top: 14.49%;
+          color: #6ca3ff;
+          line-height: 1.2; }
+        .first-screen .description-and-phone .phone div #phone__circle_london {
+          background-color: #4466c9;
+          position: absolute;
+          width: 90px;
+          height: 90px;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          border-radius: 50%;
+          z-index: 1;
+          right: 0;
+          top: 45.83%;
+          color: white;
+          text-transform: uppercase;
+          line-height: 10.417; }
+        .first-screen .description-and-phone .phone div #phone__circle_sunny {
+          background-color: #fc6a42;
+          position: absolute;
+          width: 90px;
+          height: 90px;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          border-radius: 50%;
+          z-index: 1;
+          left: 0;
+          top: 50.64%;
+          color: white;
+          text-transform: uppercase;
+          line-height: 9.259; }
+        .first-screen .description-and-phone .phone div #phone__circle_rio {
+          line-height: 1.2;
+          background-color: #fcec64;
+          position: absolute;
+          width: 55px;
+          height: 55px;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          border-radius: 50%;
+          z-index: 1;
+          right: 7.25%;
+          bottom: 0;
+          color: #648cff;
+          text-transform: uppercase; }

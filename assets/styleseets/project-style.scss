@@ -154,7 +154,9 @@ header {
 
 
 		.phone {
-			flex-basis: 51.283%;
+			flex-basis: 47.18%;
+			position: relative;
+			padding-bottom: 26px;
 
 			div{
 				display: flex;
@@ -164,12 +166,84 @@ header {
 				img {
 					max-width: 48.334%;
 				}
+
+				#phone__circle_9 {
+					background-color: white;
+					position: absolute;
+					width: 58px;
+					height:58px;
+					align-items: center;
+					justify-content: center;
+					border-radius: 50%;
+					z-index: 1;
+					right: 10.51%;
+					top: 14.49%;
+					@extend %20.23px;
+					@extend %ubuntu-bold;
+					color: rgb(108, 163, 255);
+					line-height: 1.2;
+				}
+
+				#phone__circle_london {
+					background-color: #4466c9;
+					position: absolute;
+					width: 90px;
+					height:90px;
+					align-items: center;
+					justify-content: center;
+					border-radius: 50%;
+					z-index: 1;
+					right: 0;
+					top: 45.83%;
+					@extend %16px;
+					@extend %ubuntu-bold;
+					color: white;
+					text-transform: uppercase;
+					line-height: 10.417;
+
+				}
+
+				#phone__circle_sunny {
+					background-color: #fc6a42;
+					position: absolute;
+					width: 90px;
+					height:90px;
+					align-items: center;
+					justify-content: center;
+					border-radius: 50%;
+					z-index: 1;
+					left: 0;
+					top: 50.64%;
+					@extend %18px;
+					@extend %ubuntu-bold;
+					color: white;
+					text-transform: uppercase;
+					line-height: 9.259;
+					
+				}
+
+				#phone__circle_rio {
+					line-height: 1.2;
+					background-color: #fcec64;
+					position: absolute;
+					width: 55px;
+					height: 55px;
+					align-items: center;
+					justify-content: center;
+					border-radius: 50%;
+					z-index: 1;
+					right: 7.25%;
+					bottom: 0;
+					@extend %18px;
+					@extend %ubuntu-bold;
+					color: rgb(100, 140, 255);
+					text-transform: uppercase;
+					
+				}
+				
 			}
 			
-
-
 		}
-
 
 	}
 	
