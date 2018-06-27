@@ -1,20 +1,29 @@
 .first-screen .description-and-phone .description h1 {
   font-size: 3.75em; }
 
-.first-screen .description-and-phone .description p, .first-screen .description-and-phone .description button {
+.features .title h2 {
+  font-size: 2.25em; }
+
+.features .fetures-list ul li .features-list__feature h3 {
+  font-size: 1.5em; }
+
+.first-screen .description-and-phone .description p, .first-screen .description-and-phone .description button, .features .title p {
   font-size: 1.125em; }
 
-header .flex-container p, .first-screen .description-and-phone .description h1, .first-screen .description-and-phone .description button, .first-screen .description-and-phone .phone div #phone__circle_9, .first-screen .description-and-phone .phone div #phone__circle_london, .first-screen .description-and-phone .phone div #phone__circle_sunny, .first-screen .description-and-phone .phone div #phone__circle_rio {
+.features .fetures-list ul li .features-list__feature p {
+  font-size: 1em; }
+
+header .flex-container p, .first-screen .description-and-phone .description h1, .first-screen .description-and-phone .description button, .first-screen .description-and-phone .phone div #phone__circle_9, .first-screen .description-and-phone .phone div #phone__circle_london, .first-screen .description-and-phone .phone div #phone__circle_sunny, .first-screen .description-and-phone .phone div #phone__circle_rio, .features .title h2, .features .fetures-list ul li .features-list__feature h3 {
   font-family: 'Ubuntu';
   font-weight: bold;
   font-style: normal; }
 
-header .flex-container a, .first-screen .description-and-phone .description p {
+header .flex-container a, .first-screen .description-and-phone .description p, .features .title p, .features .fetures-list ul li .features-list__feature p {
   font-family: 'Ubuntu';
   font-weight: normal;
   font-style: normal; }
 
-.first-screen .description-and-phone {
+.first-screen .description-and-phone, .features .fetures-list ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -219,3 +228,51 @@ header {
       text-decoration: none;
       color: #ff4a4f;
       line-height: 0.4; }
+
+.features .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 12.04vh; }
+  .features .title h2 {
+    color: #648cff;
+    line-height: 1.2; }
+  .features .title p {
+    color: #999999;
+    line-height: 1.2; }
+
+.features .fetures-list {
+  padding-top: 12.04vh;
+  padding-bottom: 19.45vh; }
+  .features .fetures-list ul {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    max-width: 100%; }
+    .features .fetures-list ul li {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      max-width: 370px; }
+      .features .fetures-list ul li .features-list__feature {
+        margin-left: 5.4%; }
+        .features .fetures-list ul li .features-list__feature h3 {
+          color: #353854; }
+        .features .fetures-list ul li .features-list__feature p {
+          color: #aeaeae;
+          line-height: 1.875;
+          margin-top: 10px; }

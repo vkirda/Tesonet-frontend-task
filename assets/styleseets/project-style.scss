@@ -284,6 +284,74 @@ header {
 	
 }
 
+//section features
+
+.features {
+	.title {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding-top: 12.04vh;
+
+		h2{
+			@extend %ubuntu-bold;
+			@extend %36px;
+			color: rgb(100, 140, 255);
+			line-height: 1.2;
+
+		}
+
+		p {
+			@extend %ubuntu-normal;
+			@extend %18px;
+			color: rgb(153, 153, 153);
+			line-height: 1.2;
+		}
+	}
+
+	.fetures-list {
+		padding-top: 12.04vh;
+		padding-bottom: 19.45vh;
+		ul {
+			@extend %flex-wrap;
+			justify-content: space-between;
+			max-width: 100%;
+
+			li {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				max-width: 370px;
+
+				.features-list__feature {
+					margin-left: 5.4%;
+					h3 {
+					@extend %24px;
+					@extend %ubuntu-bold;
+					color: rgb(53, 56, 84);
+					//line-height: 1.5;
+					}
+
+					p {
+						@extend %16px;
+						@extend %ubuntu-normal;
+						color: rgb(174, 174, 174);
+	  					line-height: 1.875;
+	  					margin-top: 10px;
+					}
+
+				}
+
+				
+
+			}
+
+		}
+	}
+
+
+
+}
 
 
 
