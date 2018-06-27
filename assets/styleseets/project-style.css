@@ -81,8 +81,8 @@ header {
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: center bottom, center bottom;
   background-size: contain, contain;
-  border-bottom-right-radius: 50vw 5.277vh;
-  border-bottom-left-radius: 50vw 5.277vh; }
+  border-bottom-right-radius: 100vw 10vh;
+  border-bottom-left-radius: 100vw 10vh; }
   .first-screen .description-and-phone {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;

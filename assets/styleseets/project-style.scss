@@ -105,8 +105,8 @@ header {
 	background-repeat: no-repeat, no-repeat, no-repeat;
 	background-position: center bottom, center bottom;
 	background-size: contain, contain;
-	border-bottom-right-radius: 50vw 5.277vh;
-	border-bottom-left-radius: 50vw 5.277vh;
+	border-bottom-right-radius: 100vw 10vh;
+	border-bottom-left-radius: 100vw 10vh;
 
 	.description-and-phone {
 		@extend %flex-wrap;
@@ -256,7 +256,6 @@ header {
 		padding-bottom: 65px;
 		button {
 			font-size: 11px;
-			//@extend %18px;
 			padding: 20px;
 			border-radius: 50%;
 			background-color: white;
