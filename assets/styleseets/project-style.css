@@ -80,7 +80,9 @@ header {
   background-image: url(../images/wave11.png), url(../images/wave22.png), linear-gradient(to right, #648cff, #648cff);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: center bottom, center bottom;
-  background-size: contain, contain; }
+  background-size: contain, contain;
+  border-bottom-right-radius: 50vw 5.277vh;
+  border-bottom-left-radius: 50vw 5.277vh; }
   .first-screen .description-and-phone {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
@@ -201,3 +203,21 @@ header {
           bottom: 0;
           color: #648cff;
           text-transform: uppercase; }
+  .first-screen .down-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 65px; }
+    .first-screen .down-button button {
+      font-size: 11px;
+      padding: 20px;
+      border-radius: 50%;
+      background-color: white;
+      border: none;
+      text-decoration: none;
+      color: #ff4a4f;
+      line-height: 0.4; }

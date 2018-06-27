@@ -105,6 +105,8 @@ header {
 	background-repeat: no-repeat, no-repeat, no-repeat;
 	background-position: center bottom, center bottom;
 	background-size: contain, contain;
+	border-bottom-right-radius: 50vw 5.277vh;
+	border-bottom-left-radius: 50vw 5.277vh;
 
 	.description-and-phone {
 		@extend %flex-wrap;
@@ -243,6 +245,26 @@ header {
 				
 			}
 			
+		}
+
+	}
+
+	.down-button {
+		display: flex;
+		justify-content: center;
+		padding-top: 10px;
+		padding-bottom: 65px;
+		button {
+			font-size: 11px;
+			//@extend %18px;
+			padding: 20px;
+			border-radius: 50%;
+			background-color: white;
+			border: none;
+			text-decoration: none;
+			color: rgb(255, 74, 79);
+			line-height: 0.4;
+
 		}
 
 	}
