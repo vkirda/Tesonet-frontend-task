@@ -1,24 +1,24 @@
 .first-screen .description-and-phone .description h1 {
   font-size: 3.75em; }
 
-.features .title h2 {
+.features .title h2, .download .download-flex-container h2 {
   font-size: 2.25em; }
 
 .features .fetures-list ul li .features-list__feature h3 {
   font-size: 1.5em; }
 
-.first-screen .description-and-phone .description p, .first-screen .description-and-phone .description button, .features .title p {
+.first-screen .description-and-phone .description p, .first-screen .description-and-phone .description button, .features .title p, .download .download-flex-container p {
   font-size: 1.125em; }
 
 .features .fetures-list ul li .features-list__feature p {
   font-size: 1em; }
 
-header .flex-container p, .first-screen .description-and-phone .description h1, .first-screen .description-and-phone .description button, .first-screen .description-and-phone .phone div #phone__circle_9, .first-screen .description-and-phone .phone div #phone__circle_london, .first-screen .description-and-phone .phone div #phone__circle_sunny, .first-screen .description-and-phone .phone div #phone__circle_rio, .features .title h2, .features .fetures-list ul li .features-list__feature h3 {
+header .flex-container p, .first-screen .description-and-phone .description h1, .first-screen .description-and-phone .description button, .first-screen .description-and-phone .phone div #phone__circle_9, .first-screen .description-and-phone .phone div #phone__circle_london, .first-screen .description-and-phone .phone div #phone__circle_sunny, .first-screen .description-and-phone .phone div #phone__circle_rio, .features .title h2, .features .fetures-list ul li .features-list__feature h3, .download .download-flex-container h2 {
   font-family: 'Ubuntu';
   font-weight: bold;
   font-style: normal; }
 
-header .flex-container a, .first-screen .description-and-phone .description p, .features .title p, .features .fetures-list ul li .features-list__feature p {
+header .flex-container a, .first-screen .description-and-phone .description p, .features .title p, .features .fetures-list ul li .features-list__feature p, .download .download-flex-container p {
   font-family: 'Ubuntu';
   font-weight: normal;
   font-style: normal; }
@@ -105,14 +105,15 @@ header {
         color: white;
         line-height: 1.667;
         padding-top: 4.63vh; }
+      .first-screen .description-and-phone .description .description__buttons {
+        margin-top: 5.556vh; }
       .first-screen .description-and-phone .description button {
         color: white;
         line-heigt: 1.2;
         border: none;
         text-decoration: none;
         padding: 4% 8%;
-        border-radius: 5px;
-        margin-top: 5.556vh; }
+        border-radius: 5px; }
       .first-screen .description-and-phone .description button:first-child {
         background-color: #fc6a42; }
       .first-screen .description-and-phone .description button:last-child {
@@ -276,3 +277,30 @@ header {
           color: #aeaeae;
           line-height: 1.875;
           margin-top: 10px; }
+
+.download {
+  background-color: #648cff;
+  background-image: url("../images/threePhones.png");
+  background-repeat: no-repeat;
+  background-position: 50.78125vw 5.8333vh; }
+  .download .download-flex-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    max-width: 500px; }
+    .download .download-flex-container h2 {
+      color: white;
+      line-height: 1.2;
+      text-transform: uppercase;
+      padding-top: 11.12vh; }
+    .download .download-flex-container p {
+      color: white;
+      line-height: 1.2;
+      padding-top: 3.704vh;
+      max-width: 370px; }
+    .download .download-flex-container .download-flex-container__buttons {
+      padding-top: 2.778vh;
+      padding-bottom: 10.19vh; }

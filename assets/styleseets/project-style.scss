@@ -74,7 +74,6 @@ header {
 			color: white;
 			@extend %ubuntu-normal;
 			line-height: 1.2;
-			
 		}
 	}
 
@@ -93,7 +92,6 @@ header {
 	.social-media-links {
 		flex-basis: 7.396vw;
 	}
-
 }
 
 //first screen
@@ -133,6 +131,10 @@ header {
 				padding-top: 4.63vh;
 
 			}
+
+			.description__buttons {
+				margin-top: 5.556vh;
+			}
 			button {
 				@extend %ubuntu-bold;
 				@extend %18px;
@@ -142,8 +144,7 @@ header {
 				text-decoration: none;
 				//padding: 20px 40px;
 				padding:  4% 8%;
-				border-radius: 5px;
-				margin-top: 5.556vh;
+				border-radius: 5px;	
 			}
 
 			button:first-child {
@@ -152,9 +153,7 @@ header {
 			button:last-child {
 				background-color: #4466c9;
 			}
-
 		}
-
 
 		.phone {
 			flex-basis: 47.18%;
@@ -210,7 +209,6 @@ header {
 					color: white;
 					text-transform: uppercase;
 					line-height: 10.417;
-
 				}
 
 				#phone__circle_sunny {
@@ -232,7 +230,6 @@ header {
 					color: white;
 					text-transform: uppercase;
 					line-height: 9.259;
-					
 				}
 
 				#phone__circle_rio {
@@ -254,13 +251,9 @@ header {
 					@extend %ubuntu-bold;
 					color: rgb(100, 140, 255);
 					text-transform: uppercase;
-					
 				}
-				
 			}
-			
 		}
-
 	}
 
 	.down-button {
@@ -277,11 +270,8 @@ header {
 			text-decoration: none;
 			color: rgb(255, 74, 79);
 			line-height: 0.4;
-
 		}
-
 	}
-	
 }
 
 //section features
@@ -298,7 +288,6 @@ header {
 			@extend %36px;
 			color: rgb(100, 140, 255);
 			line-height: 1.2;
-
 		}
 
 		p {
@@ -323,13 +312,15 @@ header {
 				justify-content: space-between;
 				max-width: 370px;
 
+
+
 				.features-list__feature {
 					margin-left: 5.4%;
 					h3 {
-					@extend %24px;
-					@extend %ubuntu-bold;
-					color: rgb(53, 56, 84);
-					//line-height: 1.5;
+						@extend %24px;
+						@extend %ubuntu-bold;
+						color: rgb(53, 56, 84);
+						//line-height: 1.5;
 					}
 
 					p {
@@ -339,17 +330,54 @@ header {
 	  					line-height: 1.875;
 	  					margin-top: 10px;
 					}
-
 				}
-
-				
-
 			}
-
 		}
 	}
+}
+
+//download section
+
+.download {
+	background-color: rgb(100, 140, 255);
+	background-image: url("../images/threePhones.png");
+	background-repeat: no-repeat;
+	background-position: 50.78125vw 5.8333vh;
+	
+	.download-flex-container {
+		display: flex;
+		justify-content: flex-start;
+		max-width: 500px;
+
+		h2 {
+			@extend %ubuntu-bold;
+			@extend %36px;
+			color: white;
+			line-height: 1.2;
+			text-transform: uppercase;
+			padding-top: 11.12vh;
+
+		}
+
+		p {
+			@extend %ubuntu-normal;
+			@extend %18px;
+			color: white;
+			line-height: 1.2;
+			padding-top: 3.704vh;
+			max-width: 370px;
+		}
+
+		.download-flex-container__buttons {
+			padding-top: 2.778vh;
+			padding-bottom: 10.19vh;
+		}
 
 
+
+	}
+
+	
 
 }
 
