@@ -8,12 +8,15 @@ $header-color: #648cff;
 %36px {
 	font-size: 2.25em;
 }
+%26px{
+	font-size: 1.625em;
+}		
 %24px {
 	font-size: 1.5em;
 }
 %20.23px{
 	font-size: 1.264em;
-	} 
+} 
 %18px{
 	font-size: 1.125em;
 	} 
@@ -54,44 +57,51 @@ $header-color: #648cff;
 header {
 	background-color: $header-color;
 	padding-top: 2.78vh;
-	
-	.flex-container {
-		display: flex;
-		justify-content: space-between;
-		flex-direction: row;
-		align-items: center;
 
-		p {
-			@extend %ubuntu-bold;
-			color: white;
-	  		text-transform: uppercase;
-	  		line-height: 1.2;
-	  		font-size: 1.5em;
-		}
-
-		a {
-			text-decoration: none;
-			color: white;
-			@extend %ubuntu-normal;
-			line-height: 1.2;
-		}
+	p {
+	 	color: white;
 	}
 
-	.header-navigation-meniu {
-		font-size: 1.125em;
+	a {
+	 	color: white;
 	}
 
-	.social-media-links__list {
-		font-size: 1.625em;
-		justify-content: space-between;
+}
+
+.flex-container {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	align-items: center;
+
+	p {
+		@extend %ubuntu-bold;
+	  	text-transform: uppercase;
+	  	line-height: 1.2;
+	  	@extend %24px;
 	}
-	nav {
-		flex-basis: 28.34vw;
-		opacity: 0.8;
+
+	a {
+		text-decoration: none;
+		@extend %ubuntu-normal;
+		line-height: 1.2;
 	}
-	.social-media-links {
-		flex-basis: 7.396vw;
-	}
+}
+
+.header-navigation-meniu {
+	@extend %18px;
+}
+
+.social-media-links__list {
+	@extend %26px;
+	justify-content: space-between;
+}
+nav {
+	flex-basis: 28.34vw;
+	opacity: 0.8;
+}
+.social-media-links {
+	flex-basis: 7.396vw;
 }
 
 //first screen
@@ -299,7 +309,7 @@ header {
 	}
 
 	.fetures-list {
-		padding-top: 12.04vh;
+		//padding-top: 12.04vh;
 		padding-bottom: 19.45vh;
 		ul {
 			@extend %flex-wrap;
@@ -311,6 +321,7 @@ header {
 				flex-direction: row;
 				justify-content: space-between;
 				max-width: 370px;
+				padding-top: 12.04vh;
 
 
 
@@ -339,10 +350,11 @@ header {
 //download section
 
 .download {
-	background-color: rgb(100, 140, 255);
+	background-color: $header-color;
 	background-image: url("../images/threePhones.png");
 	background-repeat: no-repeat;
 	background-position: 50.78125vw 5.8333vh;
+
 	
 	.download-flex-container {
 		display: flex;
@@ -373,13 +385,79 @@ header {
 			padding-bottom: 10.19vh;
 		}
 
+	}
 
+}
+
+//footer section
+
+footer {
+	background-color: #353854;
+	padding-top: 8.32vh;
+
+	p {
+	 	color: rgb(252, 106, 66);
+	 	span {
+	 		color: $header-color;
+	 	}
 
 	}
 
+	a {
+	 	color: rgb(181, 181, 200);
+	}
 	
+	.header-navigation-meniu {
+		li:first-child {
+			a {
+				color: white;
+			}
+		}
+		
+	}
+
+	.line {
+		max-width: 82.96875vw;
+		margin: 0 auto;
+		border-top: 1px solid rgb(67, 71, 105);
+		margin-top: 8.519vh;
+		padding-top: 4.63vh;
+		
+		p {
+			@extend %16px;
+			@extend %ubuntu-normal;
+			color: rgb(86, 91, 135);
+  			line-height: 1.35;
+  			text-align: end;
+		}
+
+	}
+
+	.go-top {
+		position: relative;
+		width: 100vw;
+		height: 85px;
+
+		button {
+			position: absolute;
+			bottom: -3px;
+			right: 3.4375vw;
+			border-radius: 5px;
+  			background-color: rgb(67, 71, 105);
+  			//padding:  4% 8%;
+  			border: none;
+  			padding: 7px 15px;
+			//text-decoration: none;
+			i {
+				color: #b5b5c8;
+				font-size: 30px;
+
+			}
+		}
+	}
 
 }
+
 
 
 

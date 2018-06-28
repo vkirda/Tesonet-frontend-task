@@ -4,21 +4,24 @@
 .features .title h2, .download .download-flex-container h2 {
   font-size: 2.25em; }
 
-.features .fetures-list ul li .features-list__feature h3 {
+.social-media-links__list {
+  font-size: 1.625em; }
+
+.flex-container p, .features .fetures-list ul li .features-list__feature h3 {
   font-size: 1.5em; }
 
-.first-screen .description-and-phone .description p, .first-screen .description-and-phone .description button, .features .title p, .download .download-flex-container p {
+.header-navigation-meniu, .first-screen .description-and-phone .description p, .first-screen .description-and-phone .description button, .features .title p, .download .download-flex-container p {
   font-size: 1.125em; }
 
-.features .fetures-list ul li .features-list__feature p {
+.features .fetures-list ul li .features-list__feature p, footer .line p {
   font-size: 1em; }
 
-header .flex-container p, .first-screen .description-and-phone .description h1, .first-screen .description-and-phone .description button, .first-screen .description-and-phone .phone div #phone__circle_9, .first-screen .description-and-phone .phone div #phone__circle_london, .first-screen .description-and-phone .phone div #phone__circle_sunny, .first-screen .description-and-phone .phone div #phone__circle_rio, .features .title h2, .features .fetures-list ul li .features-list__feature h3, .download .download-flex-container h2 {
+.flex-container p, .first-screen .description-and-phone .description h1, .first-screen .description-and-phone .description button, .first-screen .description-and-phone .phone div #phone__circle_9, .first-screen .description-and-phone .phone div #phone__circle_london, .first-screen .description-and-phone .phone div #phone__circle_sunny, .first-screen .description-and-phone .phone div #phone__circle_rio, .features .title h2, .features .fetures-list ul li .features-list__feature h3, .download .download-flex-container h2 {
   font-family: 'Ubuntu';
   font-weight: bold;
   font-style: normal; }
 
-header .flex-container a, .first-screen .description-and-phone .description p, .features .title p, .features .fetures-list ul li .features-list__feature p, .download .download-flex-container p {
+.flex-container a, .first-screen .description-and-phone .description p, .features .title p, .features .fetures-list ul li .features-list__feature p, .download .download-flex-container p, footer .line p {
   font-family: 'Ubuntu';
   font-weight: normal;
   font-style: normal; }
@@ -37,43 +40,45 @@ header .flex-container a, .first-screen .description-and-phone .description p, .
 header {
   background-color: #648cff;
   padding-top: 2.78vh; }
-  header .flex-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center; }
-    header .flex-container p {
-      color: white;
-      text-transform: uppercase;
-      line-height: 1.2;
-      font-size: 1.5em; }
-    header .flex-container a {
-      text-decoration: none;
-      color: white;
-      line-height: 1.2; }
-  header .header-navigation-meniu {
-    font-size: 1.125em; }
-  header .social-media-links__list {
-    font-size: 1.625em;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between; }
-  header nav {
-    -ms-flex-preferred-size: 28.34vw;
-    flex-basis: 28.34vw;
-    opacity: 0.8; }
-  header .social-media-links {
-    -ms-flex-preferred-size: 7.396vw;
-    flex-basis: 7.396vw; }
+  header p {
+    color: white; }
+  header a {
+    color: white; }
+
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .flex-container p {
+    text-transform: uppercase;
+    line-height: 1.2; }
+  .flex-container a {
+    text-decoration: none;
+    line-height: 1.2; }
+
+.social-media-links__list {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+nav {
+  -ms-flex-preferred-size: 28.34vw;
+  flex-basis: 28.34vw;
+  opacity: 0.8; }
+
+.social-media-links {
+  -ms-flex-preferred-size: 7.396vw;
+  flex-basis: 7.396vw; }
 
 .first-screen {
   background-color: #648cff;
@@ -250,7 +255,6 @@ header {
     line-height: 1.2; }
 
 .features .fetures-list {
-  padding-top: 12.04vh;
   padding-bottom: 19.45vh; }
   .features .fetures-list ul {
     -webkit-box-pack: justify;
@@ -268,7 +272,8 @@ header {
       -webkit-box-pack: justify;
       -ms-flex-pack: justify;
       justify-content: space-between;
-      max-width: 370px; }
+      max-width: 370px;
+      padding-top: 12.04vh; }
       .features .fetures-list ul li .features-list__feature {
         margin-left: 5.4%; }
         .features .fetures-list ul li .features-list__feature h3 {
@@ -304,3 +309,40 @@ header {
     .download .download-flex-container .download-flex-container__buttons {
       padding-top: 2.778vh;
       padding-bottom: 10.19vh; }
+
+footer {
+  background-color: #353854;
+  padding-top: 8.32vh; }
+  footer p {
+    color: #fc6a42; }
+    footer p span {
+      color: #648cff; }
+  footer a {
+    color: #b5b5c8; }
+  footer .header-navigation-meniu li:first-child a {
+    color: white; }
+  footer .line {
+    max-width: 82.96875vw;
+    margin: 0 auto;
+    border-top: 1px solid #434769;
+    margin-top: 8.519vh;
+    padding-top: 4.63vh; }
+    footer .line p {
+      color: #565b87;
+      line-height: 1.35;
+      text-align: end; }
+  footer .go-top {
+    position: relative;
+    width: 100vw;
+    height: 85px; }
+    footer .go-top button {
+      position: absolute;
+      bottom: -3px;
+      right: 3.4375vw;
+      border-radius: 5px;
+      background-color: #434769;
+      border: none;
+      padding: 7px 15px; }
+      footer .go-top button i {
+        color: #b5b5c8;
+        font-size: 30px; }
