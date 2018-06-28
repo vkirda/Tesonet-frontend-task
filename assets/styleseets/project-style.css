@@ -33,6 +33,9 @@
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
 
+.first-screen .description-and-phone .description button, .first-screen .down-button button, footer .go-top button {
+  cursor: pointer; }
+
 .container {
   max-width: 60.9375vw;
   margin: 0 auto; }
@@ -119,9 +122,9 @@ nav {
         text-decoration: none;
         padding: 4% 8%;
         border-radius: 5px; }
-      .first-screen .description-and-phone .description button:first-child {
+      .first-screen .description-and-phone .description a:first-child button {
         background-color: #fc6a42; }
-      .first-screen .description-and-phone .description button:last-child {
+      .first-screen .description-and-phone .description a:last-child button {
         background-color: #4466c9; }
     .first-screen .description-and-phone .phone {
       -ms-flex-preferred-size: 47.18%;

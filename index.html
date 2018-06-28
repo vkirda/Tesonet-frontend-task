@@ -13,33 +13,33 @@
 	
 </head>
 <body>
-	<header>
+	<header id="home">
 		<div class="container flex-container">
 			<div class="header-logo">
 				<p>Fun Weather.</p>
 			</div>
 			<nav>
 				<ul class="header-navigation-meniu flex-container">
-					<li><a href="">Home</a></li>
-					<li><a href="">Features</a></li>
-					<li><a href="">Reviews</a></li>
-					<li><a href="">Download</a></li>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#features">Features</a></li>
+					<li><a href="#reviews">Reviews</a></li>
+					<li><a href="#download">Download</a></li>
 				</ul>
 			</nav>
 			<div class="social-media-links">
 				<ul class="social-media-links__list flex-container">
 					<li>
-						<a href="https://www.facebook.com/">
+						<a href="https://www.facebook.com/" target="_blank">
 							<i class="fab fa-facebook-f"></i>
 						</a>
 					</li>
 					<li>
-						<a href="https://www.instagram.com/">
+						<a href="https://www.instagram.com/" target="_blank">
 							<i class="fab fa-instagram"></i>
 						</a>
 					</li>
 					<li>
-						<a href="https://twitter.com/">
+						<a href="https://twitter.com/" target="_blank">
 							<i class="fab fa-twitter"></i>
 						</a>
 					</li>
@@ -63,8 +63,12 @@
 							</p>
 						</div>
 						<div class="description__buttons">
-							<button>Download</button>
-							<button>Features</button>
+							<a href="#download">
+								<button>Download</button></a>
+							<a href="#features">
+								<button>Features</button>
+							</a>
+							
 						</div>
 					</div>
 					<div class="phone">
@@ -87,7 +91,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="features">
+		<section id="features" class="features">
 			<div class="container">
 				<div class="title">
 					<div class="title__header">
@@ -142,7 +146,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="download">
+		<section id="download" class="download">
 			<!-- <div class="download-container"> -->
 				<div class="container">
 					<div class="download-flex-container">
@@ -178,26 +182,26 @@
 			</div>
 			<nav>
 				<ul class="header-navigation-meniu flex-container">
-					<li><a href="">Home</a></li>
-					<li><a href="">Features</a></li>
-					<li><a href="">Reviews</a></li>
-					<li><a href="">Download</a></li>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#features">Features</a></li>
+					<li><a href="#reviews">Reviews</a></li>
+					<li><a href="#download">Download</a></li>
 				</ul>
 			</nav>
 			<div class="social-media-links">
 				<ul class="social-media-links__list flex-container">
 					<li>
-						<a href="https://www.facebook.com/">
+						<a href="https://www.facebook.com/" target="_blank">
 							<i class="fab fa-facebook-f"></i>
 						</a>
 					</li>
 					<li>
-						<a href="https://www.instagram.com/">
+						<a href="https://www.instagram.com/" target="_blank">
 							<i class="fab fa-instagram"></i>
 						</a>
 					</li>
 					<li>
-						<a href="https://twitter.com/">
+						<a href="https://twitter.com/" target="_blank">
 							<i class="fab fa-twitter"></i>
 						</a>
 					</li>
@@ -210,9 +214,13 @@
 			</div>
 		</div>
 		<div class="go-top">
-			<button class="go-top__button">
-				<i class="fas fa-angle-up"></i>
-			</button>
+			<a href="#home">
+				<button class="go-top__button">
+				
+					<i class="fas fa-angle-up"></i>
+				
+				</button>
+			</a>
 		</div>
 		
 	</footer>

@@ -47,6 +47,10 @@ $header-color: #648cff;
 	flex-wrap: wrap;
 }
 
+%pointer {
+	cursor: pointer;
+}
+
 //header section
 
 .container {
@@ -154,14 +158,21 @@ nav {
 				text-decoration: none;
 				//padding: 20px 40px;
 				padding:  4% 8%;
-				border-radius: 5px;	
+				border-radius: 5px;
+				@extend %pointer;	
 			}
 
-			button:first-child {
-				background-color: #fc6a42;
+			a:first-child {
+				button {
+					background-color: #fc6a42;
+				}
+				
 			}
-			button:last-child {
-				background-color: #4466c9;
+			a:last-child {
+				button {
+					background-color: #4466c9;
+				}
+				
 			}
 		}
 
@@ -280,6 +291,7 @@ nav {
 			text-decoration: none;
 			color: rgb(255, 74, 79);
 			line-height: 0.4;
+			@extend %pointer;
 		}
 	}
 }
@@ -444,10 +456,9 @@ footer {
 			right: 3.4375vw;
 			border-radius: 5px;
   			background-color: rgb(67, 71, 105);
-  			//padding:  4% 8%;
   			border: none;
   			padding: 7px 15px;
-			//text-decoration: none;
+			@extend %pointer;
 			i {
 				color: #b5b5c8;
 				font-size: 30px;
@@ -455,7 +466,6 @@ footer {
 			}
 		}
 	}
-
 }
 
 
