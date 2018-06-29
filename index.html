@@ -146,6 +146,7 @@
 				</div>
 			</div>
 		</section>
+		<section class="reviews-section" id="reviews"></section>
 		<section id="download" class="download">
 			<!-- <div class="download-container"> -->
 				<div class="container">
@@ -222,6 +223,44 @@
 		</div>
 		
 	</footer>
+
+	<script class="reviews-script" type="text/template">
+		<div class="container">
+			<div class="reviews-header">
+				<h2>{{title}}</h2>
+				<p>{{subtitle}}</p>
+			</div>
+			<div class="reviews-list">
+				<ul>
+					{{#review}}
+						<li>
+							<div class="reviews-list__upper-quote">
+								<p>{{upper quote}}</p>
+							</div>
+							<div class="reviews-list__text">
+								<div>
+									<p>{{quotation}}</p>
+								</div>
+								<div>
+									<p>{{person}}</p>
+								</div>
+							</div>
+							<div class="reviews-list__lower-quote">
+								<p>{{upper quote}}</p>
+							</div>	
+						</li>
+					{{/review}}
+
+				</ul>
+
+			</div>
+
+		</div>
+	</script>
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="assets/js/mustache.js"></script>
+	<script type="text/javascript" src="assets/js/tesonetjs.js"></script>
 	
 </body>
 </html>

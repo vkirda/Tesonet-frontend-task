@@ -1,0 +1,12 @@
+{
+	"title": "What people are saying",
+	"subtitle": "Reviews",
+	"upper quote": "“",
+	"review": [
+		{"quotation": "What art offers is space - a certain breathing room for the spirit.", "person": "John Updike"},
+		{"quotation": "We do not see nature with our eyes, but with our understandings and our hearts.", "person": "William Hazlitt"},
+		{"quotation": "The only courage that matters is the kind that gets you from one moment to the next.", "person": "Mignon McLaughlin"},
+		{"quotation": "No man has a good enough memory to be a successful liar.", "person": "Abraham Lincoln"}
+	]	
+
+}
