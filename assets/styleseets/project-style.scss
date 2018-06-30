@@ -1,7 +1,5 @@
 //variables
-// body *{
-// 	border: 1px solid black;
-// }
+
 .hidden-section {
 	display: none;
 }
@@ -75,7 +73,6 @@ header {
 	a {
 	 	color: white;
 	}
-
 }
 
 .flex-container {
@@ -118,7 +115,6 @@ nav {
 
 .first-screen {
 	background-color: $header-color;
-	//border: solid black 1px;
 	background-image: url(../images/wave11.png) , url(../images/wave22.png), linear-gradient(to right, rgba(100, 140, 255, 1), rgba(100, 140, 255, 1));
 	background-repeat: no-repeat, no-repeat, no-repeat;
 	background-position: center bottom, center bottom;
@@ -149,7 +145,6 @@ nav {
 				color: white;
 				line-height: 1.667;
 				padding-top: 4.63vh;
-
 			}
 
 			.description__buttons {
@@ -162,7 +157,6 @@ nav {
 				line-heigt: 1.2;
 				border: none;
 				text-decoration: none;
-				//padding: 20px 40px;
 				padding:  4% 8%;
 				border-radius: 5px;
 				@extend %pointer;	
@@ -172,20 +166,17 @@ nav {
 				button {
 					background-color: #fc6a42;
 				}
-				
 			}
 			a:last-child {
 				button {
 					background-color: #4466c9;
-				}
-				
+				}	
 			}
 		}
 
 		.phone {
 			flex-basis: 47.18%;
 			position: relative;
-			//padding-bottom: 26px;
 			padding-bottom: 2.223%;
 
 			div{
@@ -200,8 +191,6 @@ nav {
 				#phone__circle_9 {
 					background-color: white;
 					position: absolute;
-					//width: 58px;
-					//height:58px;
 					width: 10.51%;
 					height: 9.956%;
 					align-items: center;
@@ -210,7 +199,6 @@ nav {
 					z-index: 1;
 					right: 10.51%;
 					top: 14.49%;
-					//@extend %20.23px;
 					font-size: 1.1vw;
 					@extend %ubuntu-bold;
 					color: rgb(108, 163, 255);
@@ -220,8 +208,6 @@ nav {
 				#phone__circle_london {
 					background-color: #4466c9;
 					position: absolute;
-					//width: 90px;
-					//height:90px;
 					width: 16.304%;
 					height: 15.448%;
 					align-items: center;
@@ -230,7 +216,6 @@ nav {
 					z-index: 1;
 					right: 0;
 					top: 45.83%;
-					//@extend %16px;
 					font-size: 0.85vw;
 					@extend %ubuntu-bold;
 					color: white;
@@ -241,8 +226,6 @@ nav {
 				#phone__circle_sunny {
 					background-color: #fc6a42;
 					position: absolute;
-					// width: 90px;
-					// height:90px;
 					width: 16.304%;
 					height: 15.448%;
 					align-items: center;
@@ -251,7 +234,6 @@ nav {
 					z-index: 1;
 					left: 0;
 					top: 50.64%;
-					//@extend %18px;
 					font-size: 1vw;
 					@extend %ubuntu-bold;
 					color: white;
@@ -263,8 +245,6 @@ nav {
 					line-height: 1.2;
 					background-color: #fcec64;
 					position: absolute;
-					// width: 55px;
-					// height: 55px;
 					width: 9.964%;
 					height: 9.441%;
 					align-items: center;
@@ -273,7 +253,6 @@ nav {
 					z-index: 1;
 					right: 7.25%;
 					bottom: 0;
-					//@extend %18px;
 					font-size: 1vw;
 					@extend %ubuntu-bold;
 					color: rgb(100, 140, 255);
@@ -327,7 +306,6 @@ nav {
 	}
 
 	.fetures-list {
-		//padding-top: 12.04vh;
 		padding-bottom: 19.45vh;
 		ul {
 			@extend %flex-wrap;
@@ -338,7 +316,7 @@ nav {
 				display: flex;
 				flex-direction: row;
 				justify-content: space-between;
-				max-width: 370px;
+				max-width: 31.6%;
 				padding-top: 12.04vh;
 
 
@@ -349,7 +327,6 @@ nav {
 						@extend %24px;
 						@extend %ubuntu-bold;
 						color: rgb(53, 56, 84);
-						//line-height: 1.5;
 					}
 
 					p {
@@ -373,7 +350,6 @@ nav {
 	background-repeat: no-repeat;
 	background-position: 50.78125vw 5.8333vh;
 
-	
 	.download-flex-container {
 		display: flex;
 		justify-content: flex-start;
@@ -386,7 +362,6 @@ nav {
 			line-height: 1.2;
 			text-transform: uppercase;
 			padding-top: 11.12vh;
-
 		}
 
 		p {
@@ -402,9 +377,7 @@ nav {
 			padding-top: 2.778vh;
 			padding-bottom: 10.19vh;
 		}
-
 	}
-
 }
 
 //footer section
@@ -418,7 +391,6 @@ footer {
 	 	span {
 	 		color: $header-color;
 	 	}
-
 	}
 
 	a {
@@ -431,7 +403,6 @@ footer {
 				color: white;
 			}
 		}
-		
 	}
 
 	.line {
@@ -448,7 +419,6 @@ footer {
   			line-height: 1.35;
   			text-align: end;
 		}
-
 	}
 
 	.go-top {
@@ -469,6 +439,79 @@ footer {
 				color: #b5b5c8;
 				font-size: 30px;
 
+			}
+		}
+	}
+}
+
+.reviews-section {
+
+	.reviews-header {
+		text-align: center;
+		padding-top: 18.98vh;
+
+		h2{
+			@extend %36px;
+			@extend %ubuntu-bold;
+			color: $header-color;
+			line-height: 1.2;
+			text-transform: uppercase;
+		}
+
+		p {
+			@extend %18px;
+			@extend %ubuntu-normal;
+			color: rgb(153, 153, 153);
+			line-height: 1.2;
+		}
+	}
+
+	.reviews-list {
+		ul {
+			@extend %flex-wrap;
+			justify-content: space-between;
+			padding-bottom: 26.93vh;
+
+			li {
+				max-width: 48.7%;
+				padding-top: 130px;
+				padding-bottom: 60px;
+
+				.reviews-list__upper-quote {
+					font-size: 8.75em;
+					color: $header-color;
+					@extend %ubuntu-normal;
+					line-height: 0;
+				}
+				.reviews-list__text {
+					@extend %ubuntu-normal;
+					color: rgb(53, 56, 84);
+
+					div:first-child{
+						p{
+							@extend %24px;
+  							line-height: 1.5;
+						}
+					}
+
+					div:last-child{
+						p{
+							@extend %18px;
+							line-height: 1.2;
+							padding-top: 20px;
+						}
+					}
+
+				}
+				.reviews-list__lower-quote{
+					font-size: 8.75em;
+					color: $header-color;
+					@extend %ubuntu-normal;
+					line-height: 0;
+					p {
+						transform: rotate(180deg);
+					}
+				}
 			}
 		}
 	}
