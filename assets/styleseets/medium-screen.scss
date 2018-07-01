@@ -1,0 +1,119 @@
+@media all and (max-width: 960px) {
+	.container {
+		max-width: 85vw;
+	}
+	
+	.reviews-section {
+		.reviews-list {
+			ul {
+				li {
+					padding-top: 110px;
+					padding-bottom: 30px;
+				}
+			}
+		}
+	}
+
+	.first-screen {
+		.description-and-phone {
+			.phone {
+			flex-basis: 57%;
+			}
+		}
+	}
+}
+
+@media all and (max-width: 769px) {
+	.first-screen {
+		.description-and-phone {
+			flex-direction: column;
+			padding-top: 10vh;
+
+			.description {
+				h1{
+					text-align: center;
+				}
+				p {
+					text-align: center;
+				}
+
+				.description__buttons {
+					text-align: center;
+				}
+
+			}
+
+			.phone {
+				width: 100%;
+				padding-top: 7vh;
+
+				div {
+					#phone__circle_9 {
+						font-size: 3vw;
+					}
+
+					#phone__circle_london {
+						font-size: 2.5vw;
+					}
+
+					#phone__circle_sunny {
+						font-size: 3vw;
+					}
+					#phone__circle_rio {
+						font-size: 3vw;
+					}
+
+				}
+
+			}
+			
+		}
+		.down-button {
+			padding-top: 4vh;
+		}
+
+	}
+
+	.features {
+		.fetures-list {
+			padding-bottom: 12vh;
+			ul {
+				li {
+					max-width: 100%;
+					padding-top: 7vh;
+				}
+			}
+		}
+
+	}
+	.reviews-section {
+		.reviews-list {
+			ul {
+				li{
+					max-width: 100%;
+				}
+			}
+		}
+	}
+
+	.flex-container {
+		flex-wrap: wrap;
+
+		.header-logo{
+			flex-basis: 100%;
+			text-align: center;
+			margin-bottom: 25px;
+		}
+	}
+	nav {
+		flex-basis: 75%;
+	}
+	.social-media-links {
+		flex-basis: 15%;
+	}
+
+}
+
+
+
+

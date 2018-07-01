@@ -1,0 +1,21 @@
+@media all and (max-width: 480px){
+	nav {
+		flex-basis: 100%;
+		margin-bottom: 25px;
+	}
+	.social-media-links {
+		flex-basis: 100%;
+	}
+	.social-media-links__list {
+		justify-content: space-evenly;
+	}
+}
+
+@media all and (max-width: 320px) {
+	.container {
+		max-width: 95vw;
+	}
+	.header-navigation-meniu {
+		flex-direction: column;
+	}
+}

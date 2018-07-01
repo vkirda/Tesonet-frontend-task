@@ -1,0 +1,8 @@
+@media all and (max-width: 1366px) {
+  .container {
+    max-width: 80vw; } }
+
+@media all and (max-width: 1366px) {
+  nav {
+    -ms-flex-preferred-size: 40vw;
+    flex-basis: 40vw; } }
