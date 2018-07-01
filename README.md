@@ -16,3 +16,6 @@
 * Structure scss (  [SMACSS](http://smacss.com/) || [Atomic](http://github.com/nemophrost/atomic-css) || any other of your choice ) 
 
 * Responsive design
+
+---------------------------------------------------------
+Follow the link to see the website: https://vkirda.github.io/tesonet-frontend-task/
