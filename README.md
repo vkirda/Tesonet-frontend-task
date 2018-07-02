@@ -31,6 +31,6 @@
 
 * Css naming is as BEM as possible. Not perfect though.
 
-* Structure scss... I haven't done that. My scss is all nested as understandable...
+* Structure scss... I haven't done that. My scss is all nested and understandable...
 
 * Design is responsive and looks good on my cell phone. :smiley: Used media queries for that and separated from main scss. I also split it to three parts for large, medium and small screens.
