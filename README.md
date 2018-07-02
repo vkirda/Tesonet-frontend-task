@@ -27,7 +27,7 @@
 
 * Used mustache.js templating engine. Made a JSON file to store a data and used JQuery getJSON() method to fetch it. Template is between script tags at index.html file. Mustache.render() method renders it. Templating part is for "reviews" section only. Task says to use templating engine but it doesn't says how much templating needed. :) Need clarification for that becouse it's not obvious for me.
 
-* Yes, I used Git. :) I Created master branch first, then gh-pages branch. Made bunch of commits and pushes there and after I finished - merged with a master branch. Follow the link to see the gh-pages deplyed: https://vkirda.github.io/tesonet-frontend-task/
+* Yes, I used Git. :) I Created master branch first, then gh-pages branch. Made bunch of commits and pushes there and after I finished - merged with a master branch. Follow the link to see the gh-pages deployed: https://vkirda.github.io/tesonet-frontend-task/
 
 * Css naming is as BEM as possible. Not perfect though.
 
